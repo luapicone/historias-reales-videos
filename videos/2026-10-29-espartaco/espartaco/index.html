@@ -1,0 +1,396 @@
+<!doctype html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=1080, height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000;font-family:Poppins,Inter,sans-serif;font-weight:800}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:#000}
+.scene{position:absolute;top:0;left:0;width:1080px;height:1920px;overflow:hidden}
+.dark{background:radial-gradient(circle at 50% 40%,#2a0d0d,#0b0505 70%)}
+.in{position:absolute;inset:0}
+.capw{position:absolute;inset:0}
+.bg{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transform-origin:center center}
+.ct{position:absolute;left:60px;right:60px;top:300px;text-align:center;color:#fff}
+.tag{color:#e0a030;font-size:38px;letter-spacing:8px;margin-bottom:40px}
+.big{font-size:150px;line-height:1.05;color:#fff;text-shadow:0 0 40px rgba(200,40,30,.6)}
+.rule{width:520px;height:8px;background:#c0392b;margin:40px auto;transform-origin:center}
+.sub{font-size:56px;color:#e8d9b5;line-height:1.2}
+.row{display:flex;flex-direction:column;align-items:center;margin-bottom:60px}
+.n{font-size:170px;color:#fff;line-height:1}.l{font-size:46px;color:#e0a030}
+.ember{position:absolute;top:0;border-radius:50%;background:#ff8a2a;box-shadow:0 0 12px #ff6a00;opacity:0}
+.cap{position:absolute;left:40px;right:40px;bottom:420px;text-align:center;font-size:84px;line-height:1.1;color:#fff;visibility:hidden;-webkit-text-stroke:10px #000;paint-order:stroke fill;text-shadow:0 6px 12px rgba(0,0,0,.6)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="105.6" data-width="1080" data-height="1920">
+<div id="s0w" class="clip scene" data-start="0.00" data-duration="2.00" data-track-index="0"><div id="s0" class="in"><img id="s0i" src="assets/img02_met_fallinggladiator.jpg" class="bg"></div></div>
+<div id="s1w" class="clip scene dark" data-start="1.60" data-duration="3.60" data-track-index="1"><div id="s1" class="in"><div class="ct"><div class="tag">HISTORIAS REALES</div><div class="big" id="s1b" style="font-size:150px;line-height:1.15">ESPARTACO</div><div class="rule" id="s1r"></div><div class="sub" id="s1u">GLADIADOR DE TRACIA</div></div></div></div>
+<div id="s2w" class="clip scene" data-start="4.80" data-duration="4.60" data-track-index="0"><div id="s2" class="in"><img id="s2i" src="assets/img04_met_statuette.jpg" class="bg"></div></div>
+<div id="s3w" class="clip scene dark" data-start="9.00" data-duration="4.00" data-track-index="1"><div id="s3" class="in"><div class="ct"><div class="tag">AÑO 73 A.C.</div><div class="big" id="s3b">ESCLAVO</div><div class="rule" id="s3r"></div><div class="sub" id="s3u">VENDIDO EN CAPUA</div></div></div></div>
+<div id="s4w" class="clip scene" data-start="12.60" data-duration="5.40" data-track-index="0"><div id="s4" class="in"><img id="s4i" src="assets/img10_loc_colosseum.jpg" class="bg"></div></div>
+<div id="s5w" class="clip scene dark" data-start="17.60" data-duration="4.00" data-track-index="1"><div id="s5" class="in"><div class="ct"><div class="tag">LA ESCUELA DE GLADIADORES</div><div class="big" id="s5b">MATAR<br>O MORIR</div><div class="rule" id="s5r"></div><div class="sub" id="s5u">POR DIVERSIÓN, ANTE MILES</div></div></div></div>
+<div id="s6w" class="clip scene dark" data-start="21.20" data-duration="5.40" data-track-index="0"><div id="s6" class="in"><div class="ct"><div class="tag">UNA NOCHE</div><div class="big" id="s6b" style="font-size:130px;line-height:1.15">70<br>GLADIADORES</div><div class="rule" id="s6r"></div><div class="sub" id="s6u">ARMADOS CON CUCHILLOS DE COCINA</div></div></div></div>
+<div id="s7w" class="clip scene" data-start="26.20" data-duration="4.20" data-track-index="1"><div id="s7" class="in"><img id="s7i" src="assets/img06_met_kneeling.jpg" class="bg"></div></div>
+<div id="s8w" class="clip scene dark" data-start="30.00" data-duration="4.40" data-track-index="0"><div id="s8" class="in"><div class="ct"><div class="tag">ROMA ENVÍA</div><div class="big" id="s8b" style="font-size:140px;line-height:1.15">3.000<br>SOLDADOS</div><div class="rule" id="s8r"></div><div class="sub" id="s8u">PARA ACORRALARLOS EN EL VESUBIO</div></div></div></div>
+<div id="s9w" class="clip scene" data-start="34.00" data-duration="6.00" data-track-index="1"><div id="s9" class="in"><img id="s9i" src="assets/img03_loc_vesuvius.jpg" class="bg"></div></div>
+<div id="s10w" class="clip scene dark" data-start="39.60" data-duration="7.40" data-track-index="0"><div id="s10" class="in"><div class="ct"><div class="tag">EN POCOS MESES</div><div class="big" id="s10b">70.000</div><div class="rule" id="s10r"></div><div class="sub" id="s10u">ESCLAVOS EN SU EJÉRCITO</div></div></div></div>
+<div id="s11w" class="clip scene" data-start="46.60" data-duration="5.60" data-track-index="1"><div id="s11" class="in"><img id="s11i" src="assets/img07_met_relief.jpg" class="bg"></div></div>
+<div id="s12w" class="clip scene dark" data-start="51.80" data-duration="4.20" data-track-index="0"><div id="s12" class="in"><div class="ct"><div class="tag">EN UN MISMO AÑO</div><div class="big" id="s12b" style="font-size:140px;line-height:1.15">2<br>CÓNSULES</div><div class="rule" id="s12r"></div><div class="sub" id="s12u">VENCIDOS POR UN ESCLAVO</div></div></div></div>
+<div id="s13w" class="clip scene" data-start="55.60" data-duration="5.40" data-track-index="1"><div id="s13" class="in"><img id="s13i" src="assets/img08_met_soldier.jpg" class="bg"></div></div>
+<div id="s14w" class="clip scene" data-start="60.60" data-duration="5.40" data-track-index="0"><div id="s14" class="in"><img id="s14i" src="assets/img04_met_statuette.jpg" class="bg"></div></div>
+<div id="s15w" class="clip scene dark" data-start="65.60" data-duration="4.80" data-track-index="1"><div id="s15" class="in"><div class="ct"><div class="tag">ENTONCES ROMA ELIGE</div><div class="big" id="s15b">CRASO</div><div class="rule" id="s15r"></div><div class="sub" id="s15u">EL HOMBRE MÁS RICO DE LA REPÚBLICA</div></div></div></div>
+<div id="s16w" class="clip scene" data-start="70.00" data-duration="5.00" data-track-index="0"><div id="s16" class="in"><img id="s16i" src="assets/img08_met_soldier.jpg" class="bg"></div></div>
+<div id="s17w" class="clip scene dark" data-start="74.60" data-duration="6.00" data-track-index="1"><div id="s17" class="in"><div class="ct"><div class="tag">EL FINAL DE LA REBELIÓN</div><div class="row" id="s17r0"><span class="n">8</span><span class="l">LEGIONES DE CRASO</span></div><div class="row" id="s17r1"><span class="n">1 DE 10</span><span class="l">SOLDADOS EJECUTADOS POR HUIR</span></div><div class="row" id="s17r2"><span class="n">71 A.C.</span><span class="l">AÑO DE LA DERROTA</span></div></div></div></div>
+<div id="s18w" class="clip scene" data-start="78.40" data-duration="5.20" data-track-index="0"><div id="s18" class="in"><img id="s18i" src="assets/img02_met_fallinggladiator.jpg" class="bg"></div></div>
+<div id="s19w" class="clip scene dark" data-start="83.20" data-duration="6.20" data-track-index="1"><div id="s19" class="in"><img id="s19i" src="assets/img09_loc_tombs.jpg" class="bg" style="opacity:.3"><div class="ct"><div class="tag">A LO LARGO DE LA VÍA APIA</div><div class="big" id="s19b">6.000</div><div class="rule" id="s19r"></div><div class="sub" id="s19u">CRUCIFICADOS DE CAPUA A ROMA</div></div></div></div>
+<div id="s20w" class="clip scene" data-start="89.00" data-duration="5.00" data-track-index="0"><div id="s20" class="in"><img id="s20i" src="assets/img05_loc_appian.jpg" class="bg"></div></div>
+<div id="s21w" class="clip scene" data-start="93.60" data-duration="3.20" data-track-index="1"><div id="s21" class="in"><img id="s21i" src="assets/img09_loc_tombs.jpg" class="bg"></div></div>
+<div id="s22w" class="clip scene dark" data-start="96.40" data-duration="9.20" data-track-index="0"><div id="s22" class="in"><div class="ct"><div class="big" id="s22b" style="font-size:92px;line-height:1.15">¿QUÉ SE SIENTE<br>NACER LIBRE<br>Y MORIR ESCLAVO?</div><div class="rule" id="s22r"></div><div class="sub" id="s22u">ESPARTACO ELIGIÓ MORIR LIBRE</div></div><div id="fade" style="position:absolute;inset:0;background:#000;opacity:0"></div></div></div>
+<div id="embers" class="clip" data-start="0" data-duration="105.6" data-track-index="4" style="position:absolute;inset:0;pointer-events:none"><div id="e0" class="ember" style="left:792px;width:10px;height:10px"></div><div id="e1" class="ember" style="left:934px;width:4px;height:4px"></div><div id="e2" class="ember" style="left:1010px;width:6px;height:6px"></div><div id="e3" class="ember" style="left:477px;width:6px;height:6px"></div><div id="e4" class="ember" style="left:55px;width:6px;height:6px"></div><div id="e5" class="ember" style="left:984px;width:7px;height:7px"></div><div id="e6" class="ember" style="left:612px;width:10px;height:10px"></div><div id="e7" class="ember" style="left:552px;width:9px;height:9px"></div><div id="e8" class="ember" style="left:965px;width:7px;height:7px"></div><div id="e9" class="ember" style="left:733px;width:5px;height:5px"></div><div id="e10" class="ember" style="left:446px;width:6px;height:6px"></div><div id="e11" class="ember" style="left:1029px;width:5px;height:5px"></div><div id="e12" class="ember" style="left:722px;width:10px;height:10px"></div><div id="e13" class="ember" style="left:39px;width:8px;height:8px"></div></div>
+<div class="clip capw" data-start="0.05" data-duration="0.73" data-track-index="2"><div id="c0" class="cap">¿QUÉ SE SIENTE</div></div>
+<div class="clip capw" data-start="0.78" data-duration="0.68" data-track-index="2"><div id="c1" class="cap">NACER LIBRE Y</div></div>
+<div class="clip capw" data-start="1.46" data-duration="1.01" data-track-index="2"><div id="c2" class="cap">MORIR ESCLAVO?</div></div>
+<div class="clip capw" data-start="2.47" data-duration="0.51" data-track-index="2"><div id="c3" class="cap">NO LO SÉ,</div></div>
+<div class="clip capw" data-start="2.98" data-duration="1.59" data-track-index="2"><div id="c4" class="cap">PREGÚNTENLE A ESPARTACO.</div></div>
+<div class="clip capw" data-start="4.57" data-duration="1.35" data-track-index="2"><div id="c5" class="cap">TRACIA, AÑO SETENTA</div></div>
+<div class="clip capw" data-start="5.92" data-duration="0.76" data-track-index="2"><div id="c6" class="cap">Y TRES ANTES</div></div>
+<div class="clip capw" data-start="6.68" data-duration="0.50" data-track-index="2"><div id="c7" class="cap">DE CRISTO.</div></div>
+<div class="clip capw" data-start="7.18" data-duration="0.65" data-track-index="2"><div id="c8" class="cap">ESPARTACO ES UN</div></div>
+<div class="clip capw" data-start="7.83" data-duration="1.22" data-track-index="2"><div id="c9" class="cap">GUERRERO CAPTURADO POR</div></div>
+<div class="clip capw" data-start="9.05" data-duration="0.72" data-track-index="2"><div id="c10" class="cap">ROMA.</div></div>
+<div class="clip capw" data-start="9.77" data-duration="0.70" data-track-index="2"><div id="c11" class="cap">LO VENDEN COMO</div></div>
+<div class="clip capw" data-start="10.47" data-duration="0.61" data-track-index="2"><div id="c12" class="cap">ESCLAVO Y LO</div></div>
+<div class="clip capw" data-start="11.08" data-duration="0.75" data-track-index="2"><div id="c13" class="cap">LLEVAN A CAPUA,</div></div>
+<div class="clip capw" data-start="11.83" data-duration="0.69" data-track-index="2"><div id="c14" class="cap">A UNA ESCUELA</div></div>
+<div class="clip capw" data-start="12.52" data-duration="1.21" data-track-index="2"><div id="c15" class="cap">DE GLADIADORES.</div></div>
+<div class="clip capw" data-start="13.73" data-duration="0.45" data-track-index="2"><div id="c16" class="cap">ALLÍ NO LO</div></div>
+<div class="clip capw" data-start="14.18" data-duration="1.35" data-track-index="2"><div id="c17" class="cap">ENTRENAN PARA VIVIR.</div></div>
+<div class="clip capw" data-start="15.53" data-duration="0.83" data-track-index="2"><div id="c18" class="cap">LO ENTRENAN PARA</div></div>
+<div class="clip capw" data-start="16.36" data-duration="0.58" data-track-index="2"><div id="c19" class="cap">MATAR Y PARA</div></div>
+<div class="clip capw" data-start="16.94" data-duration="1.03" data-track-index="2"><div id="c20" class="cap">MORIR, POR DIVERSIÓN,</div></div>
+<div class="clip capw" data-start="17.97" data-duration="0.76" data-track-index="2"><div id="c21" class="cap">ANTE MILES DE</div></div>
+<div class="clip capw" data-start="18.73" data-duration="1.04" data-track-index="2"><div id="c22" class="cap">ESPECTADORES.</div></div>
+<div class="clip capw" data-start="19.77" data-duration="0.58" data-track-index="2"><div id="c23" class="cap">UNA NOCHE,</div></div>
+<div class="clip capw" data-start="20.35" data-duration="1.32" data-track-index="2"><div id="c24" class="cap">UNOS SETENTA GLADIADORES</div></div>
+<div class="clip capw" data-start="21.67" data-duration="0.75" data-track-index="2"><div id="c25" class="cap">DECIDEN QUE YA</div></div>
+<div class="clip capw" data-start="22.42" data-duration="0.63" data-track-index="2"><div id="c26" class="cap">BASTA.</div></div>
+<div class="clip capw" data-start="23.05" data-duration="0.84" data-track-index="2"><div id="c27" class="cap">CON CUCHILLOS DE</div></div>
+<div class="clip capw" data-start="23.89" data-duration="0.95" data-track-index="2"><div id="c28" class="cap">COCINA ROMPEN LAS</div></div>
+<div class="clip capw" data-start="24.84" data-duration="1.29" data-track-index="2"><div id="c29" class="cap">PUERTAS Y ESCAPAN.</div></div>
+<div class="clip capw" data-start="26.13" data-duration="0.56" data-track-index="2"><div id="c30" class="cap">EN EL CAMINO</div></div>
+<div class="clip capw" data-start="26.69" data-duration="0.61" data-track-index="2"><div id="c31" class="cap">SE HACEN CON</div></div>
+<div class="clip capw" data-start="27.30" data-duration="1.23" data-track-index="2"><div id="c32" class="cap">ARMAS VERDADERAS.</div></div>
+<div class="clip capw" data-start="28.53" data-duration="0.72" data-track-index="2"><div id="c33" class="cap">SE REFUGIAN EN</div></div>
+<div class="clip capw" data-start="29.25" data-duration="0.83" data-track-index="2"><div id="c34" class="cap">LAS LADERAS DEL</div></div>
+<div class="clip capw" data-start="30.08" data-duration="0.73" data-track-index="2"><div id="c35" class="cap">VESUBIO.</div></div>
+<div class="clip capw" data-start="30.81" data-duration="0.78" data-track-index="2"><div id="c36" class="cap">ROMA ENVÍA TRES</div></div>
+<div class="clip capw" data-start="31.59" data-duration="1.02" data-track-index="2"><div id="c37" class="cap">MIL SOLDADOS PARA</div></div>
+<div class="clip capw" data-start="32.61" data-duration="0.88" data-track-index="2"><div id="c38" class="cap">ACORRALARLOS.</div></div>
+<div class="clip capw" data-start="33.49" data-duration="0.68" data-track-index="2"><div id="c39" class="cap">ESPARTACO Y SUS</div></div>
+<div class="clip capw" data-start="34.17" data-duration="1.07" data-track-index="2"><div id="c40" class="cap">HOMBRES TEJEN CUERDAS</div></div>
+<div class="clip capw" data-start="35.24" data-duration="1.05" data-track-index="2"><div id="c41" class="cap">CON ENREDADERAS,</div></div>
+<div class="clip capw" data-start="36.29" data-duration="0.67" data-track-index="2"><div id="c42" class="cap">BAJAN POR UN</div></div>
+<div class="clip capw" data-start="36.96" data-duration="1.22" data-track-index="2"><div id="c43" class="cap">ACANTILADO, Y ATACAN</div></div>
+<div class="clip capw" data-start="38.18" data-duration="0.96" data-track-index="2"><div id="c44" class="cap">AL EJÉRCITO POR</div></div>
+<div class="clip capw" data-start="39.14" data-duration="1.03" data-track-index="2"><div id="c45" class="cap">LA ESPALDA.</div></div>
+<div class="clip capw" data-start="40.17" data-duration="1.32" data-track-index="2"><div id="c46" class="cap">LA NOTICIA CORRE.</div></div>
+<div class="clip capw" data-start="41.49" data-duration="0.73" data-track-index="2"><div id="c47" class="cap">ESCLAVOS DE TODO</div></div>
+<div class="clip capw" data-start="42.22" data-duration="0.39" data-track-index="2"><div id="c48" class="cap">EL SUR DE</div></div>
+<div class="clip capw" data-start="42.61" data-duration="1.22" data-track-index="2"><div id="c49" class="cap">ITALIA ABANDONAN LOS</div></div>
+<div class="clip capw" data-start="43.83" data-duration="0.62" data-track-index="2"><div id="c50" class="cap">CAMPOS Y SE</div></div>
+<div class="clip capw" data-start="44.45" data-duration="0.92" data-track-index="2"><div id="c51" class="cap">UNEN A ÉL.</div></div>
+<div class="clip capw" data-start="45.37" data-duration="0.79" data-track-index="2"><div id="c52" class="cap">EN POCOS MESES,</div></div>
+<div class="clip capw" data-start="46.16" data-duration="0.88" data-track-index="2"><div id="c53" class="cap">SU EJÉRCITO PASA</div></div>
+<div class="clip capw" data-start="47.04" data-duration="0.67" data-track-index="2"><div id="c54" class="cap">DE SETENTA A</div></div>
+<div class="clip capw" data-start="47.71" data-duration="0.51" data-track-index="2"><div id="c55" class="cap">MÁS DE SETENTA</div></div>
+<div class="clip capw" data-start="48.22" data-duration="1.19" data-track-index="2"><div id="c56" class="cap">MIL PERSONAS.</div></div>
+<div class="clip capw" data-start="49.41" data-duration="1.04" data-track-index="2"><div id="c57" class="cap">DERROTAN UN EJÉRCITO</div></div>
+<div class="clip capw" data-start="50.45" data-duration="1.16" data-track-index="2"><div id="c58" class="cap">ROMANO TRAS OTRO.</div></div>
+<div class="clip capw" data-start="51.61" data-duration="0.87" data-track-index="2"><div id="c59" class="cap">INCLUSO VENCEN A</div></div>
+<div class="clip capw" data-start="52.48" data-duration="0.85" data-track-index="2"><div id="c60" class="cap">DOS CÓNSULES EN</div></div>
+<div class="clip capw" data-start="53.33" data-duration="1.04" data-track-index="2"><div id="c61" class="cap">UN MISMO AÑO.</div></div>
+<div class="clip capw" data-start="54.37" data-duration="0.93" data-track-index="2"><div id="c62" class="cap">ROMA, LA POTENCIA</div></div>
+<div class="clip capw" data-start="55.30" data-duration="0.74" data-track-index="2"><div id="c63" class="cap">MÁS GRANDE DEL</div></div>
+<div class="clip capw" data-start="56.04" data-duration="1.20" data-track-index="2"><div id="c64" class="cap">MUNDO, TIEMBLA ANTE</div></div>
+<div class="clip capw" data-start="57.24" data-duration="1.29" data-track-index="2"><div id="c65" class="cap">UN ANTIGUO ESCLAVO.</div></div>
+<div class="clip capw" data-start="58.53" data-duration="1.21" data-track-index="2"><div id="c66" class="cap">ESPARTACO PODRÍA HABER</div></div>
+<div class="clip capw" data-start="59.74" data-duration="0.85" data-track-index="2"><div id="c67" class="cap">CRUZADO LOS ALPES</div></div>
+<div class="clip capw" data-start="60.59" data-duration="0.79" data-track-index="2"><div id="c68" class="cap">Y VOLVER A</div></div>
+<div class="clip capw" data-start="61.38" data-duration="0.99" data-track-index="2"><div id="c69" class="cap">CASA, LIBRE.</div></div>
+<div class="clip capw" data-start="62.37" data-duration="0.89" data-track-index="2"><div id="c70" class="cap">PERO SUS SEGUIDORES</div></div>
+<div class="clip capw" data-start="63.26" data-duration="0.84" data-track-index="2"><div id="c71" class="cap">QUIEREN MÁS BOTÍN,</div></div>
+<div class="clip capw" data-start="64.10" data-duration="0.61" data-track-index="2"><div id="c72" class="cap">Y SE QUEDAN</div></div>
+<div class="clip capw" data-start="64.71" data-duration="1.02" data-track-index="2"><div id="c73" class="cap">EN ITALIA.</div></div>
+<div class="clip capw" data-start="65.73" data-duration="1.12" data-track-index="2"><div id="c74" class="cap">ENTONCES ROMA ELIGE</div></div>
+<div class="clip capw" data-start="66.85" data-duration="0.36" data-track-index="2"><div id="c75" class="cap">A CRASO,</div></div>
+<div class="clip capw" data-start="67.21" data-duration="0.86" data-track-index="2"><div id="c76" class="cap">EL HOMBRE MÁS</div></div>
+<div class="clip capw" data-start="68.07" data-duration="0.34" data-track-index="2"><div id="c77" class="cap">RICO DE LA</div></div>
+<div class="clip capw" data-start="68.41" data-duration="0.88" data-track-index="2"><div id="c78" class="cap">REPÚBLICA.</div></div>
+<div class="clip capw" data-start="69.29" data-duration="0.67" data-track-index="2"><div id="c79" class="cap">ÉL REÚNE OCHO</div></div>
+<div class="clip capw" data-start="69.96" data-duration="0.53" data-track-index="2"><div id="c80" class="cap">LEGIONES.</div></div>
+<div class="clip capw" data-start="70.49" data-duration="1.13" data-track-index="2"><div id="c81" class="cap">Y REINSTAURA UN</div></div>
+<div class="clip capw" data-start="71.62" data-duration="0.91" data-track-index="2"><div id="c82" class="cap">CASTIGO ANTIGUO:</div></div>
+<div class="clip capw" data-start="72.53" data-duration="0.57" data-track-index="2"><div id="c83" class="cap">EJECUTA A UNO</div></div>
+<div class="clip capw" data-start="73.10" data-duration="0.75" data-track-index="2"><div id="c84" class="cap">DE CADA DIEZ</div></div>
+<div class="clip capw" data-start="73.85" data-duration="1.28" data-track-index="2"><div id="c85" class="cap">SOLDADOS QUE HUYEN.</div></div>
+<div class="clip capw" data-start="75.13" data-duration="0.51" data-track-index="2"><div id="c86" class="cap">EN EL AÑO</div></div>
+<div class="clip capw" data-start="75.64" data-duration="0.49" data-track-index="2"><div id="c87" class="cap">SETENTA Y UNO,</div></div>
+<div class="clip capw" data-start="76.13" data-duration="0.97" data-track-index="2"><div id="c88" class="cap">LA REBELIÓN ES</div></div>
+<div class="clip capw" data-start="77.10" data-duration="1.15" data-track-index="2"><div id="c89" class="cap">ACORRALADA.</div></div>
+<div class="clip capw" data-start="78.25" data-duration="1.25" data-track-index="2"><div id="c90" class="cap">ESPARTACO CARGA SOLO</div></div>
+<div class="clip capw" data-start="79.50" data-duration="0.74" data-track-index="2"><div id="c91" class="cap">CONTRA CRASO,</div></div>
+<div class="clip capw" data-start="80.24" data-duration="1.25" data-track-index="2"><div id="c92" class="cap">Y CAE LUCHANDO.</div></div>
+<div class="clip capw" data-start="81.49" data-duration="0.83" data-track-index="2"><div id="c93" class="cap">SU CUERPO NUNCA</div></div>
+<div class="clip capw" data-start="82.32" data-duration="0.92" data-track-index="2"><div id="c94" class="cap">SE ENCONTRÓ.</div></div>
+<div class="clip capw" data-start="83.24" data-duration="1.27" data-track-index="2"><div id="c95" class="cap">SEIS MIL PRISIONEROS</div></div>
+<div class="clip capw" data-start="84.51" data-duration="0.77" data-track-index="2"><div id="c96" class="cap">SON CRUCIFICADOS A</div></div>
+<div class="clip capw" data-start="85.28" data-duration="0.50" data-track-index="2"><div id="c97" class="cap">LO LARGO DE</div></div>
+<div class="clip capw" data-start="85.78" data-duration="0.59" data-track-index="2"><div id="c98" class="cap">LA VÍA APIA,</div></div>
+<div class="clip capw" data-start="86.37" data-duration="0.90" data-track-index="2"><div id="c99" class="cap">DESDE CAPUA HASTA</div></div>
+<div class="clip capw" data-start="87.27" data-duration="0.41" data-track-index="2"><div id="c100" class="cap">ROMA.</div></div>
+<div class="clip capw" data-start="87.68" data-duration="0.67" data-track-index="2"><div id="c101" class="cap">PARA QUE NADIE</div></div>
+<div class="clip capw" data-start="88.35" data-duration="0.87" data-track-index="2"><div id="c102" class="cap">LO OLVIDARA.</div></div>
+<div class="clip capw" data-start="89.22" data-duration="0.59" data-track-index="2"><div id="c103" class="cap">Y NADIE LO</div></div>
+<div class="clip capw" data-start="89.81" data-duration="0.45" data-track-index="2"><div id="c104" class="cap">OLVIDÓ.</div></div>
+<div class="clip capw" data-start="90.26" data-duration="0.54" data-track-index="2"><div id="c105" class="cap">PERO NO POR</div></div>
+<div class="clip capw" data-start="90.80" data-duration="0.68" data-track-index="2"><div id="c106" class="cap">EL MIEDO QUE</div></div>
+<div class="clip capw" data-start="91.48" data-duration="1.17" data-track-index="2"><div id="c107" class="cap">ROMA QUISO SEMBRAR.</div></div>
+<div class="clip capw" data-start="92.65" data-duration="0.45" data-track-index="2"><div id="c108" class="cap">SINO POR EL</div></div>
+<div class="clip capw" data-start="93.10" data-duration="0.43" data-track-index="2"><div id="c109" class="cap">VALOR DE UN</div></div>
+<div class="clip capw" data-start="93.53" data-duration="0.57" data-track-index="2"><div id="c110" class="cap">HOMBRE QUE SE</div></div>
+<div class="clip capw" data-start="94.10" data-duration="0.53" data-track-index="2"><div id="c111" class="cap">NEGÓ A MORIR</div></div>
+<div class="clip capw" data-start="94.63" data-duration="1.19" data-track-index="2"><div id="c112" class="cap">POR EL ENTRETENIMIENTO</div></div>
+<div class="clip capw" data-start="95.82" data-duration="0.48" data-track-index="2"><div id="c113" class="cap">DE OTROS.</div></div>
+<div class="clip capw" data-start="96.30" data-duration="0.86" data-track-index="2"><div id="c114" class="cap">¿QUÉ SE SIENTE</div></div>
+<div class="clip capw" data-start="97.16" data-duration="0.60" data-track-index="2"><div id="c115" class="cap">NACER LIBRE Y</div></div>
+<div class="clip capw" data-start="97.76" data-duration="0.97" data-track-index="2"><div id="c116" class="cap">MORIR ESCLAVO?</div></div>
+<div class="clip capw" data-start="98.73" data-duration="1.26" data-track-index="2"><div id="c117" class="cap">ESPARTACO ELIGIÓ MORIR</div></div>
+<div class="clip capw" data-start="99.99" data-duration="0.57" data-track-index="2"><div id="c118" class="cap">LIBRE.</div></div>
+<div class="clip capw" data-start="100.56" data-duration="0.45" data-track-index="2"><div id="c119" class="cap">Y POR ESO,</div></div>
+<div class="clip capw" data-start="101.01" data-duration="0.90" data-track-index="2"><div id="c120" class="cap">DOS MIL AÑOS</div></div>
+<div class="clip capw" data-start="101.91" data-duration="2.05" data-track-index="2"><div id="c121" class="cap">DESPUÉS, SEGUIMOS DICIENDO</div></div>
+<div class="clip capw" data-start="103.96" data-duration="1.48" data-track-index="2"><div id="c122" class="cap">SU NOMBRE.</div></div>
+<audio id="aud" src="assets/narration.wav" data-start="0" data-duration="105.6" data-track-index="5" data-volume="1"></audio>
+</div>
+
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+tl.fromTo("#s0i",{scale:1.35,xPercent:-2},{scale:1.0,xPercent:2,duration:0.90,ease:"power3.out"},0.00);
+tl.to("#s0",{opacity:0,duration:0.45},1.55);
+tl.fromTo("#s1b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},1.90);
+tl.fromTo("#s1u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},2.40);
+tl.fromTo("#s1",{opacity:0},{opacity:1,duration:0.45},1.60);
+tl.to("#s1",{opacity:0,duration:0.45},4.75);
+tl.fromTo("#s2i",{scale:1.0,xPercent:-2},{scale:1.14,xPercent:2,duration:4.60,ease:"none"},4.80);
+tl.fromTo("#s2",{opacity:0},{opacity:1,duration:0.45},4.80);
+tl.to("#s2",{opacity:0,duration:0.45},8.95);
+tl.fromTo("#s3b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},9.30);
+tl.fromTo("#s3u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},9.80);
+tl.fromTo("#s3",{opacity:0},{opacity:1,duration:0.45},9.00);
+tl.to("#s3",{opacity:0,duration:0.45},12.55);
+tl.fromTo("#s4i",{scale:1.14,xPercent:-2},{scale:1.0,xPercent:2,duration:5.40,ease:"none"},12.60);
+tl.fromTo("#s4",{opacity:0},{opacity:1,duration:0.45},12.60);
+tl.to("#s4",{opacity:0,duration:0.45},17.55);
+tl.fromTo("#s5b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},17.90);
+tl.fromTo("#s5u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},18.40);
+tl.fromTo("#s5",{opacity:0},{opacity:1,duration:0.45},17.60);
+tl.to("#s5",{opacity:0,duration:0.45},21.15);
+tl.fromTo("#s6b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},21.50);
+tl.fromTo("#s6u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},22.00);
+tl.fromTo("#s6",{opacity:0},{opacity:1,duration:0.45},21.20);
+tl.to("#s6",{opacity:0,duration:0.45},26.15);
+tl.fromTo("#s7i",{scale:1.0,xPercent:2},{scale:1.14,xPercent:-2,duration:4.20,ease:"none"},26.20);
+tl.fromTo("#s7",{opacity:0},{opacity:1,duration:0.45},26.20);
+tl.to("#s7",{opacity:0,duration:0.45},29.95);
+tl.fromTo("#s8b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},30.30);
+tl.fromTo("#s8u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},30.80);
+tl.fromTo("#s8",{opacity:0},{opacity:1,duration:0.45},30.00);
+tl.to("#s8",{opacity:0,duration:0.45},33.95);
+tl.fromTo("#s9i",{scale:1.14,xPercent:-2},{scale:1.0,xPercent:2,duration:6.00,ease:"none"},34.00);
+tl.fromTo("#s9",{opacity:0},{opacity:1,duration:0.45},34.00);
+tl.to("#s9",{opacity:0,duration:0.45},39.55);
+tl.fromTo("#s10b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},39.90);
+tl.fromTo("#s10u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},40.40);
+tl.fromTo("#s10",{opacity:0},{opacity:1,duration:0.45},39.60);
+tl.to("#s10",{opacity:0,duration:0.45},46.55);
+tl.fromTo("#s11i",{scale:1.0,xPercent:-2},{scale:1.14,xPercent:2,duration:5.60,ease:"none"},46.60);
+tl.fromTo("#s11",{opacity:0},{opacity:1,duration:0.45},46.60);
+tl.to("#s11",{opacity:0,duration:0.45},51.75);
+tl.fromTo("#s12b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},52.10);
+tl.fromTo("#s12u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},52.60);
+tl.fromTo("#s12",{opacity:0},{opacity:1,duration:0.45},51.80);
+tl.to("#s12",{opacity:0,duration:0.45},55.55);
+tl.fromTo("#s13i",{scale:1.14,xPercent:2},{scale:1.0,xPercent:-2,duration:5.40,ease:"none"},55.60);
+tl.fromTo("#s13",{opacity:0},{opacity:1,duration:0.45},55.60);
+tl.to("#s13",{opacity:0,duration:0.45},60.55);
+tl.fromTo("#s14i",{scale:1.0,xPercent:-2},{scale:1.14,xPercent:2,duration:5.40,ease:"none"},60.60);
+tl.fromTo("#s14",{opacity:0},{opacity:1,duration:0.45},60.60);
+tl.to("#s14",{opacity:0,duration:0.45},65.55);
+tl.fromTo("#s15b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},65.90);
+tl.fromTo("#s15u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},66.40);
+tl.fromTo("#s15",{opacity:0},{opacity:1,duration:0.45},65.60);
+tl.to("#s15",{opacity:0,duration:0.45},69.95);
+tl.fromTo("#s16i",{scale:1.14,xPercent:-2},{scale:1.0,xPercent:2,duration:5.00,ease:"none"},70.00);
+tl.fromTo("#s16",{opacity:0},{opacity:1,duration:0.45},70.00);
+tl.to("#s16",{opacity:0,duration:0.45},74.55);
+tl.fromTo("#s17r0",{opacity:0,y:50,scale:.8},{opacity:1,y:0,scale:1,duration:.5,ease:"back.out(1.7)"},75.10);
+tl.fromTo("#s17r1",{opacity:0,y:50,scale:.8},{opacity:1,y:0,scale:1,duration:.5,ease:"back.out(1.7)"},75.60);
+tl.fromTo("#s17r2",{opacity:0,y:50,scale:.8},{opacity:1,y:0,scale:1,duration:.5,ease:"back.out(1.7)"},76.10);
+tl.fromTo("#s17",{opacity:0},{opacity:1,duration:0.45},74.60);
+tl.to("#s17",{opacity:0,duration:0.45},80.15);
+tl.fromTo("#s18i",{scale:1.0,xPercent:2},{scale:1.14,xPercent:-2,duration:5.20,ease:"none"},78.40);
+tl.fromTo("#s18",{opacity:0},{opacity:1,duration:0.45},78.40);
+tl.to("#s18",{opacity:0,duration:0.45},83.15);
+tl.fromTo("#s19b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},83.50);
+tl.fromTo("#s19u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},84.00);
+tl.fromTo("#s19",{opacity:0},{opacity:1,duration:0.45},83.20);
+tl.to("#s19",{opacity:0,duration:0.45},88.95);
+tl.fromTo("#s20i",{scale:1.14,xPercent:-2},{scale:1.0,xPercent:2,duration:5.00,ease:"none"},89.00);
+tl.fromTo("#s20",{opacity:0},{opacity:1,duration:0.45},89.00);
+tl.to("#s20",{opacity:0,duration:0.45},93.55);
+tl.fromTo("#s21i",{scale:1.0,xPercent:-2},{scale:1.14,xPercent:2,duration:3.20,ease:"none"},93.60);
+tl.fromTo("#s21",{opacity:0},{opacity:1,duration:0.45},93.60);
+tl.to("#s21",{opacity:0,duration:0.45},96.35);
+tl.fromTo("#s22b",{opacity:0,scale:.6},{opacity:1,scale:1,duration:.55,ease:"back.out(1.7)"},96.70);
+tl.fromTo("#s22u",{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"},97.20);
+tl.fromTo("#s22",{opacity:0},{opacity:1,duration:0.45},96.40);
+tl.to("#fade",{opacity:1,duration:1.4,ease:"power1.in"},104.10);
+tl.fromTo("#e0",{y:1950,opacity:0},{y:-100,opacity:.8,duration:8.96,ease:"none",repeat:11,},1.15);
+tl.fromTo("#e1",{y:1950,opacity:0},{y:-100,opacity:.8,duration:5.91,ease:"none",repeat:17,},0.73);
+tl.fromTo("#e2",{y:1950,opacity:0},{y:-100,opacity:.8,duration:5.50,ease:"none",repeat:19,},3.13);
+tl.fromTo("#e3",{y:1950,opacity:0},{y:-100,opacity:.8,duration:7.42,ease:"none",repeat:14,},2.39);
+tl.fromTo("#e4",{y:1950,opacity:0},{y:-100,opacity:.8,duration:5.26,ease:"none",repeat:20,},1.03);
+tl.fromTo("#e5",{y:1950,opacity:0},{y:-100,opacity:.8,duration:6.15,ease:"none",repeat:17,},5.07);
+tl.fromTo("#e6",{y:1950,opacity:0},{y:-100,opacity:.8,duration:5.29,ease:"none",repeat:19,},5.45);
+tl.fromTo("#e7",{y:1950,opacity:0},{y:-100,opacity:.8,duration:6.89,ease:"none",repeat:15,},5.83);
+tl.fromTo("#e8",{y:1950,opacity:0},{y:-100,opacity:.8,duration:7.80,ease:"none",repeat:13,},4.53);
+tl.fromTo("#e9",{y:1950,opacity:0},{y:-100,opacity:.8,duration:6.74,ease:"none",repeat:15,},4.72);
+tl.fromTo("#e10",{y:1950,opacity:0},{y:-100,opacity:.8,duration:7.99,ease:"none",repeat:13,},4.64);
+tl.fromTo("#e11",{y:1950,opacity:0},{y:-100,opacity:.8,duration:5.29,ease:"none",repeat:19,},5.68);
+tl.fromTo("#e12",{y:1950,opacity:0},{y:-100,opacity:.8,duration:6.90,ease:"none",repeat:15,},3.36);
+tl.fromTo("#e13",{y:1950,opacity:0},{y:-100,opacity:.8,duration:6.42,ease:"none",repeat:16,},1.98);
+tl.set("#c0",{visibility:"visible"},0.05);tl.fromTo("#c0",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},0.05);tl.to("#c0",{opacity:0,duration:.08},0.70);
+tl.set("#c1",{visibility:"visible"},0.78);tl.fromTo("#c1",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},0.78);tl.to("#c1",{opacity:0,duration:.08},1.38);
+tl.set("#c2",{visibility:"visible"},1.46);tl.fromTo("#c2",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},1.46);tl.to("#c2",{opacity:0,duration:.08},2.39);
+tl.set("#c3",{visibility:"visible"},2.47);tl.fromTo("#c3",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},2.47);tl.to("#c3",{opacity:0,duration:.08},2.90);
+tl.set("#c4",{visibility:"visible"},2.98);tl.fromTo("#c4",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},2.98);tl.to("#c4",{opacity:0,duration:.08},4.49);
+tl.set("#c5",{visibility:"visible"},4.57);tl.fromTo("#c5",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},4.57);tl.to("#c5",{opacity:0,duration:.08},5.84);
+tl.set("#c6",{visibility:"visible"},5.92);tl.fromTo("#c6",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},5.92);tl.to("#c6",{opacity:0,duration:.08},6.60);
+tl.set("#c7",{visibility:"visible"},6.68);tl.fromTo("#c7",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},6.68);tl.to("#c7",{opacity:0,duration:.08},7.10);
+tl.set("#c8",{visibility:"visible"},7.18);tl.fromTo("#c8",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},7.18);tl.to("#c8",{opacity:0,duration:.08},7.75);
+tl.set("#c9",{visibility:"visible"},7.83);tl.fromTo("#c9",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},7.83);tl.to("#c9",{opacity:0,duration:.08},8.97);
+tl.set("#c10",{visibility:"visible"},9.05);tl.fromTo("#c10",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},9.05);tl.to("#c10",{opacity:0,duration:.08},9.69);
+tl.set("#c11",{visibility:"visible"},9.77);tl.fromTo("#c11",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},9.77);tl.to("#c11",{opacity:0,duration:.08},10.39);
+tl.set("#c12",{visibility:"visible"},10.47);tl.fromTo("#c12",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},10.47);tl.to("#c12",{opacity:0,duration:.08},11.00);
+tl.set("#c13",{visibility:"visible"},11.08);tl.fromTo("#c13",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},11.08);tl.to("#c13",{opacity:0,duration:.08},11.75);
+tl.set("#c14",{visibility:"visible"},11.83);tl.fromTo("#c14",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},11.83);tl.to("#c14",{opacity:0,duration:.08},12.44);
+tl.set("#c15",{visibility:"visible"},12.52);tl.fromTo("#c15",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},12.52);tl.to("#c15",{opacity:0,duration:.08},13.65);
+tl.set("#c16",{visibility:"visible"},13.73);tl.fromTo("#c16",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},13.73);tl.to("#c16",{opacity:0,duration:.08},14.10);
+tl.set("#c17",{visibility:"visible"},14.18);tl.fromTo("#c17",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},14.18);tl.to("#c17",{opacity:0,duration:.08},15.45);
+tl.set("#c18",{visibility:"visible"},15.53);tl.fromTo("#c18",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},15.53);tl.to("#c18",{opacity:0,duration:.08},16.28);
+tl.set("#c19",{visibility:"visible"},16.36);tl.fromTo("#c19",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},16.36);tl.to("#c19",{opacity:0,duration:.08},16.86);
+tl.set("#c20",{visibility:"visible"},16.94);tl.fromTo("#c20",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},16.94);tl.to("#c20",{opacity:0,duration:.08},17.89);
+tl.set("#c21",{visibility:"visible"},17.97);tl.fromTo("#c21",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},17.97);tl.to("#c21",{opacity:0,duration:.08},18.65);
+tl.set("#c22",{visibility:"visible"},18.73);tl.fromTo("#c22",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},18.73);tl.to("#c22",{opacity:0,duration:.08},19.69);
+tl.set("#c23",{visibility:"visible"},19.77);tl.fromTo("#c23",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},19.77);tl.to("#c23",{opacity:0,duration:.08},20.27);
+tl.set("#c24",{visibility:"visible"},20.35);tl.fromTo("#c24",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},20.35);tl.to("#c24",{opacity:0,duration:.08},21.59);
+tl.set("#c25",{visibility:"visible"},21.67);tl.fromTo("#c25",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},21.67);tl.to("#c25",{opacity:0,duration:.08},22.34);
+tl.set("#c26",{visibility:"visible"},22.42);tl.fromTo("#c26",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},22.42);tl.to("#c26",{opacity:0,duration:.08},22.97);
+tl.set("#c27",{visibility:"visible"},23.05);tl.fromTo("#c27",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},23.05);tl.to("#c27",{opacity:0,duration:.08},23.81);
+tl.set("#c28",{visibility:"visible"},23.89);tl.fromTo("#c28",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},23.89);tl.to("#c28",{opacity:0,duration:.08},24.76);
+tl.set("#c29",{visibility:"visible"},24.84);tl.fromTo("#c29",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},24.84);tl.to("#c29",{opacity:0,duration:.08},26.05);
+tl.set("#c30",{visibility:"visible"},26.13);tl.fromTo("#c30",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},26.13);tl.to("#c30",{opacity:0,duration:.08},26.61);
+tl.set("#c31",{visibility:"visible"},26.69);tl.fromTo("#c31",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},26.69);tl.to("#c31",{opacity:0,duration:.08},27.22);
+tl.set("#c32",{visibility:"visible"},27.30);tl.fromTo("#c32",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},27.30);tl.to("#c32",{opacity:0,duration:.08},28.45);
+tl.set("#c33",{visibility:"visible"},28.53);tl.fromTo("#c33",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},28.53);tl.to("#c33",{opacity:0,duration:.08},29.17);
+tl.set("#c34",{visibility:"visible"},29.25);tl.fromTo("#c34",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},29.25);tl.to("#c34",{opacity:0,duration:.08},30.00);
+tl.set("#c35",{visibility:"visible"},30.08);tl.fromTo("#c35",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},30.08);tl.to("#c35",{opacity:0,duration:.08},30.73);
+tl.set("#c36",{visibility:"visible"},30.81);tl.fromTo("#c36",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},30.81);tl.to("#c36",{opacity:0,duration:.08},31.51);
+tl.set("#c37",{visibility:"visible"},31.59);tl.fromTo("#c37",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},31.59);tl.to("#c37",{opacity:0,duration:.08},32.53);
+tl.set("#c38",{visibility:"visible"},32.61);tl.fromTo("#c38",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},32.61);tl.to("#c38",{opacity:0,duration:.08},33.41);
+tl.set("#c39",{visibility:"visible"},33.49);tl.fromTo("#c39",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},33.49);tl.to("#c39",{opacity:0,duration:.08},34.09);
+tl.set("#c40",{visibility:"visible"},34.17);tl.fromTo("#c40",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},34.17);tl.to("#c40",{opacity:0,duration:.08},35.16);
+tl.set("#c41",{visibility:"visible"},35.24);tl.fromTo("#c41",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},35.24);tl.to("#c41",{opacity:0,duration:.08},36.21);
+tl.set("#c42",{visibility:"visible"},36.29);tl.fromTo("#c42",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},36.29);tl.to("#c42",{opacity:0,duration:.08},36.88);
+tl.set("#c43",{visibility:"visible"},36.96);tl.fromTo("#c43",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},36.96);tl.to("#c43",{opacity:0,duration:.08},38.10);
+tl.set("#c44",{visibility:"visible"},38.18);tl.fromTo("#c44",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},38.18);tl.to("#c44",{opacity:0,duration:.08},39.06);
+tl.set("#c45",{visibility:"visible"},39.14);tl.fromTo("#c45",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},39.14);tl.to("#c45",{opacity:0,duration:.08},40.09);
+tl.set("#c46",{visibility:"visible"},40.17);tl.fromTo("#c46",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},40.17);tl.to("#c46",{opacity:0,duration:.08},41.41);
+tl.set("#c47",{visibility:"visible"},41.49);tl.fromTo("#c47",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},41.49);tl.to("#c47",{opacity:0,duration:.08},42.14);
+tl.set("#c48",{visibility:"visible"},42.22);tl.fromTo("#c48",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},42.22);tl.to("#c48",{opacity:0,duration:.08},42.53);
+tl.set("#c49",{visibility:"visible"},42.61);tl.fromTo("#c49",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},42.61);tl.to("#c49",{opacity:0,duration:.08},43.75);
+tl.set("#c50",{visibility:"visible"},43.83);tl.fromTo("#c50",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},43.83);tl.to("#c50",{opacity:0,duration:.08},44.37);
+tl.set("#c51",{visibility:"visible"},44.45);tl.fromTo("#c51",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},44.45);tl.to("#c51",{opacity:0,duration:.08},45.29);
+tl.set("#c52",{visibility:"visible"},45.37);tl.fromTo("#c52",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},45.37);tl.to("#c52",{opacity:0,duration:.08},46.08);
+tl.set("#c53",{visibility:"visible"},46.16);tl.fromTo("#c53",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},46.16);tl.to("#c53",{opacity:0,duration:.08},46.96);
+tl.set("#c54",{visibility:"visible"},47.04);tl.fromTo("#c54",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},47.04);tl.to("#c54",{opacity:0,duration:.08},47.63);
+tl.set("#c55",{visibility:"visible"},47.71);tl.fromTo("#c55",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},47.71);tl.to("#c55",{opacity:0,duration:.08},48.14);
+tl.set("#c56",{visibility:"visible"},48.22);tl.fromTo("#c56",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},48.22);tl.to("#c56",{opacity:0,duration:.08},49.33);
+tl.set("#c57",{visibility:"visible"},49.41);tl.fromTo("#c57",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},49.41);tl.to("#c57",{opacity:0,duration:.08},50.37);
+tl.set("#c58",{visibility:"visible"},50.45);tl.fromTo("#c58",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},50.45);tl.to("#c58",{opacity:0,duration:.08},51.53);
+tl.set("#c59",{visibility:"visible"},51.61);tl.fromTo("#c59",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},51.61);tl.to("#c59",{opacity:0,duration:.08},52.40);
+tl.set("#c60",{visibility:"visible"},52.48);tl.fromTo("#c60",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},52.48);tl.to("#c60",{opacity:0,duration:.08},53.25);
+tl.set("#c61",{visibility:"visible"},53.33);tl.fromTo("#c61",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},53.33);tl.to("#c61",{opacity:0,duration:.08},54.29);
+tl.set("#c62",{visibility:"visible"},54.37);tl.fromTo("#c62",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},54.37);tl.to("#c62",{opacity:0,duration:.08},55.22);
+tl.set("#c63",{visibility:"visible"},55.30);tl.fromTo("#c63",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},55.30);tl.to("#c63",{opacity:0,duration:.08},55.96);
+tl.set("#c64",{visibility:"visible"},56.04);tl.fromTo("#c64",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},56.04);tl.to("#c64",{opacity:0,duration:.08},57.16);
+tl.set("#c65",{visibility:"visible"},57.24);tl.fromTo("#c65",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},57.24);tl.to("#c65",{opacity:0,duration:.08},58.45);
+tl.set("#c66",{visibility:"visible"},58.53);tl.fromTo("#c66",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},58.53);tl.to("#c66",{opacity:0,duration:.08},59.66);
+tl.set("#c67",{visibility:"visible"},59.74);tl.fromTo("#c67",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},59.74);tl.to("#c67",{opacity:0,duration:.08},60.51);
+tl.set("#c68",{visibility:"visible"},60.59);tl.fromTo("#c68",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},60.59);tl.to("#c68",{opacity:0,duration:.08},61.30);
+tl.set("#c69",{visibility:"visible"},61.38);tl.fromTo("#c69",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},61.38);tl.to("#c69",{opacity:0,duration:.08},62.29);
+tl.set("#c70",{visibility:"visible"},62.37);tl.fromTo("#c70",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},62.37);tl.to("#c70",{opacity:0,duration:.08},63.18);
+tl.set("#c71",{visibility:"visible"},63.26);tl.fromTo("#c71",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},63.26);tl.to("#c71",{opacity:0,duration:.08},64.02);
+tl.set("#c72",{visibility:"visible"},64.10);tl.fromTo("#c72",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},64.10);tl.to("#c72",{opacity:0,duration:.08},64.63);
+tl.set("#c73",{visibility:"visible"},64.71);tl.fromTo("#c73",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},64.71);tl.to("#c73",{opacity:0,duration:.08},65.65);
+tl.set("#c74",{visibility:"visible"},65.73);tl.fromTo("#c74",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},65.73);tl.to("#c74",{opacity:0,duration:.08},66.77);
+tl.set("#c75",{visibility:"visible"},66.85);tl.fromTo("#c75",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},66.85);tl.to("#c75",{opacity:0,duration:.08},67.13);
+tl.set("#c76",{visibility:"visible"},67.21);tl.fromTo("#c76",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},67.21);tl.to("#c76",{opacity:0,duration:.08},67.99);
+tl.set("#c77",{visibility:"visible"},68.07);tl.fromTo("#c77",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},68.07);tl.to("#c77",{opacity:0,duration:.08},68.33);
+tl.set("#c78",{visibility:"visible"},68.41);tl.fromTo("#c78",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},68.41);tl.to("#c78",{opacity:0,duration:.08},69.21);
+tl.set("#c79",{visibility:"visible"},69.29);tl.fromTo("#c79",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},69.29);tl.to("#c79",{opacity:0,duration:.08},69.88);
+tl.set("#c80",{visibility:"visible"},69.96);tl.fromTo("#c80",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},69.96);tl.to("#c80",{opacity:0,duration:.08},70.41);
+tl.set("#c81",{visibility:"visible"},70.49);tl.fromTo("#c81",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},70.49);tl.to("#c81",{opacity:0,duration:.08},71.54);
+tl.set("#c82",{visibility:"visible"},71.62);tl.fromTo("#c82",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},71.62);tl.to("#c82",{opacity:0,duration:.08},72.45);
+tl.set("#c83",{visibility:"visible"},72.53);tl.fromTo("#c83",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},72.53);tl.to("#c83",{opacity:0,duration:.08},73.02);
+tl.set("#c84",{visibility:"visible"},73.10);tl.fromTo("#c84",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},73.10);tl.to("#c84",{opacity:0,duration:.08},73.77);
+tl.set("#c85",{visibility:"visible"},73.85);tl.fromTo("#c85",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},73.85);tl.to("#c85",{opacity:0,duration:.08},75.05);
+tl.set("#c86",{visibility:"visible"},75.13);tl.fromTo("#c86",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},75.13);tl.to("#c86",{opacity:0,duration:.08},75.56);
+tl.set("#c87",{visibility:"visible"},75.64);tl.fromTo("#c87",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},75.64);tl.to("#c87",{opacity:0,duration:.08},76.05);
+tl.set("#c88",{visibility:"visible"},76.13);tl.fromTo("#c88",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},76.13);tl.to("#c88",{opacity:0,duration:.08},77.02);
+tl.set("#c89",{visibility:"visible"},77.10);tl.fromTo("#c89",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},77.10);tl.to("#c89",{opacity:0,duration:.08},78.17);
+tl.set("#c90",{visibility:"visible"},78.25);tl.fromTo("#c90",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},78.25);tl.to("#c90",{opacity:0,duration:.08},79.42);
+tl.set("#c91",{visibility:"visible"},79.50);tl.fromTo("#c91",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},79.50);tl.to("#c91",{opacity:0,duration:.08},80.16);
+tl.set("#c92",{visibility:"visible"},80.24);tl.fromTo("#c92",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},80.24);tl.to("#c92",{opacity:0,duration:.08},81.41);
+tl.set("#c93",{visibility:"visible"},81.49);tl.fromTo("#c93",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},81.49);tl.to("#c93",{opacity:0,duration:.08},82.24);
+tl.set("#c94",{visibility:"visible"},82.32);tl.fromTo("#c94",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},82.32);tl.to("#c94",{opacity:0,duration:.08},83.16);
+tl.set("#c95",{visibility:"visible"},83.24);tl.fromTo("#c95",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},83.24);tl.to("#c95",{opacity:0,duration:.08},84.43);
+tl.set("#c96",{visibility:"visible"},84.51);tl.fromTo("#c96",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},84.51);tl.to("#c96",{opacity:0,duration:.08},85.20);
+tl.set("#c97",{visibility:"visible"},85.28);tl.fromTo("#c97",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},85.28);tl.to("#c97",{opacity:0,duration:.08},85.70);
+tl.set("#c98",{visibility:"visible"},85.78);tl.fromTo("#c98",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},85.78);tl.to("#c98",{opacity:0,duration:.08},86.29);
+tl.set("#c99",{visibility:"visible"},86.37);tl.fromTo("#c99",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},86.37);tl.to("#c99",{opacity:0,duration:.08},87.19);
+tl.set("#c100",{visibility:"visible"},87.27);tl.fromTo("#c100",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},87.27);tl.to("#c100",{opacity:0,duration:.08},87.60);
+tl.set("#c101",{visibility:"visible"},87.68);tl.fromTo("#c101",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},87.68);tl.to("#c101",{opacity:0,duration:.08},88.27);
+tl.set("#c102",{visibility:"visible"},88.35);tl.fromTo("#c102",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},88.35);tl.to("#c102",{opacity:0,duration:.08},89.14);
+tl.set("#c103",{visibility:"visible"},89.22);tl.fromTo("#c103",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},89.22);tl.to("#c103",{opacity:0,duration:.08},89.73);
+tl.set("#c104",{visibility:"visible"},89.81);tl.fromTo("#c104",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},89.81);tl.to("#c104",{opacity:0,duration:.08},90.18);
+tl.set("#c105",{visibility:"visible"},90.26);tl.fromTo("#c105",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},90.26);tl.to("#c105",{opacity:0,duration:.08},90.72);
+tl.set("#c106",{visibility:"visible"},90.80);tl.fromTo("#c106",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},90.80);tl.to("#c106",{opacity:0,duration:.08},91.40);
+tl.set("#c107",{visibility:"visible"},91.48);tl.fromTo("#c107",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},91.48);tl.to("#c107",{opacity:0,duration:.08},92.57);
+tl.set("#c108",{visibility:"visible"},92.65);tl.fromTo("#c108",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},92.65);tl.to("#c108",{opacity:0,duration:.08},93.02);
+tl.set("#c109",{visibility:"visible"},93.10);tl.fromTo("#c109",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},93.10);tl.to("#c109",{opacity:0,duration:.08},93.45);
+tl.set("#c110",{visibility:"visible"},93.53);tl.fromTo("#c110",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},93.53);tl.to("#c110",{opacity:0,duration:.08},94.02);
+tl.set("#c111",{visibility:"visible"},94.10);tl.fromTo("#c111",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},94.10);tl.to("#c111",{opacity:0,duration:.08},94.55);
+tl.set("#c112",{visibility:"visible"},94.63);tl.fromTo("#c112",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},94.63);tl.to("#c112",{opacity:0,duration:.08},95.74);
+tl.set("#c113",{visibility:"visible"},95.82);tl.fromTo("#c113",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},95.82);tl.to("#c113",{opacity:0,duration:.08},96.22);
+tl.set("#c114",{visibility:"visible"},96.30);tl.fromTo("#c114",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},96.30);tl.to("#c114",{opacity:0,duration:.08},97.08);
+tl.set("#c115",{visibility:"visible"},97.16);tl.fromTo("#c115",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},97.16);tl.to("#c115",{opacity:0,duration:.08},97.68);
+tl.set("#c116",{visibility:"visible"},97.76);tl.fromTo("#c116",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},97.76);tl.to("#c116",{opacity:0,duration:.08},98.65);
+tl.set("#c117",{visibility:"visible"},98.73);tl.fromTo("#c117",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},98.73);tl.to("#c117",{opacity:0,duration:.08},99.91);
+tl.set("#c118",{visibility:"visible"},99.99);tl.fromTo("#c118",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},99.99);tl.to("#c118",{opacity:0,duration:.08},100.48);
+tl.set("#c119",{visibility:"visible"},100.56);tl.fromTo("#c119",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},100.56);tl.to("#c119",{opacity:0,duration:.08},100.93);
+tl.set("#c120",{visibility:"visible"},101.01);tl.fromTo("#c120",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},101.01);tl.to("#c120",{opacity:0,duration:.08},101.83);
+tl.set("#c121",{visibility:"visible"},101.91);tl.fromTo("#c121",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},101.91);tl.to("#c121",{opacity:0,duration:.08},103.88);
+tl.set("#c122",{visibility:"visible"},103.96);tl.fromTo("#c122",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.22,ease:"back.out(2)"},103.96);tl.to("#c122",{opacity:0,duration:.08},105.36);
+
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>

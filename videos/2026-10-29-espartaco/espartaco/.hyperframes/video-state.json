@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "historyId": "3d00eb4c-977e-441d-b081-58277d49fe00",
+  "currentRevision": "686ed217-033d-4a1d-a643-dcbe2d4c2234",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "assets/img02_met_fallinggladiator.jpg": {
+      "hash": "2f507538cec8da8f16bfbffd7f10bc1080209551f0752138e7dbcde4a1a96fdb",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/2f/2f507538cec8da8f16bfbffd7f10bc1080209551f0752138e7dbcde4a1a96fdb"
+    },
+    "assets/img03_loc_vesuvius.jpg": {
+      "hash": "3121faf1c1075f2256a2398dd8e5953a42682caf1236c43c12879f07fcf01244",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/31/3121faf1c1075f2256a2398dd8e5953a42682caf1236c43c12879f07fcf01244"
+    },
+    "assets/img04_met_statuette.jpg": {
+      "hash": "713e43a2c5f1c5700af1f47d173609e147395652bc93a0f6376e4d1ae5466217",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/71/713e43a2c5f1c5700af1f47d173609e147395652bc93a0f6376e4d1ae5466217"
+    },
+    "assets/img05_loc_appian.jpg": {
+      "hash": "7476fa95aac6e35950386811f3e369412ec0be449baa6a36d9f91ab28135ff0d",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/74/7476fa95aac6e35950386811f3e369412ec0be449baa6a36d9f91ab28135ff0d"
+    },
+    "assets/img06_met_kneeling.jpg": {
+      "hash": "7d6df740d1fb94fd90ab31730be82c57541a805f26f939b9530a83a84cca736c",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/7d/7d6df740d1fb94fd90ab31730be82c57541a805f26f939b9530a83a84cca736c"
+    },
+    "assets/img07_met_relief.jpg": {
+      "hash": "5cef7dbd31fd48e59ed48be785ad7edd4dee7cb261897f4863fb15cd6a3dea98",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/5c/5cef7dbd31fd48e59ed48be785ad7edd4dee7cb261897f4863fb15cd6a3dea98"
+    },
+    "assets/img08_met_soldier.jpg": {
+      "hash": "51f75bf314535392bf3d3a66bc9b51c125b12a0fa6d62c27b23e72db0e1b72ef",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/51/51f75bf314535392bf3d3a66bc9b51c125b12a0fa6d62c27b23e72db0e1b72ef"
+    },
+    "assets/img09_loc_tombs.jpg": {
+      "hash": "8ef0fc9e985452894d465e850133b36b37c21c790a875b74a879010095acd017",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/8e/8ef0fc9e985452894d465e850133b36b37c21c790a875b74a879010095acd017"
+    },
+    "assets/img10_loc_colosseum.jpg": {
+      "hash": "b5f9d7d38ecf4acd54776f7be999dd5a925fff0e8c3a56c8e9a491d284d9a96b",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/b5/b5f9d7d38ecf4acd54776f7be999dd5a925fff0e8c3a56c8e9a491d284d9a96b"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "e3cf30615464fcbbf81107d2d804a54c700f28c734bd4c2da607b895a16eaf69",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/e3/e3cf30615464fcbbf81107d2d804a54c700f28c734bd4c2da607b895a16eaf69"
+    },
+    "meta.json": {
+      "hash": "ba8c59b76a7dfeb0a6814d3a056b553ea50797dde9db25732001e9877f87308f",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/ba/ba8c59b76a7dfeb0a6814d3a056b553ea50797dde9db25732001e9877f87308f"
+    },
+    "package.json": {
+      "hash": "6fae4d72d0af0894e62c4019b818050de3c5c6a20c8e2dcec524a7754070a3c0",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/6f/6fae4d72d0af0894e62c4019b818050de3c5c6a20c8e2dcec524a7754070a3c0"
+    },
+    "assets/narration.wav": {
+      "hash": "cde2bfdcb1e8ba8b4b51a1004a33ec19f7ea0d024ddacd6262a2361ea0a8b675",
+      "content": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/cd/cde2bfdcb1e8ba8b4b51a1004a33ec19f7ea0d024ddacd6262a2361ea0a8b675"
+    }
+  },
+  "revisions": {
+    "686ed217-033d-4a1d-a643-dcbe2d4c2234": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793316357187,
+      "endedAt": 1793316357188,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/50/504e923d444d818a5743a5e00ab5cc9eb8231be3bb49c215bc3da009816bc11f",
+          "after": "/root/.cache/hyperframes/history/3d00eb4c-977e-441d-b081-58277d49fe00/blobs/e3/e3cf30615464fcbbf81107d2d804a54c700f28c734bd4c2da607b895a16eaf69"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e5aaca65-b530-4681-bded-9ec1edb34bca",
+      "completedAt": 1793316666923,
+      "output": "/home/user/historias-reales-videos/videos/2026-10-29-espartaco/espartaco/espartaco.mp4",
+      "status": "completed",
+      "revision": "686ed217-033d-4a1d-a643-dcbe2d4c2234"
+    },
+    "retainedRevisions": [
+      "686ed217-033d-4a1d-a643-dcbe2d4c2234"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
